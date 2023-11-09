@@ -3,7 +3,7 @@ import './App.css';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import ReactDOM from "react-dom"
-import { BrowserRouter, Route, Routes, Link, useLocation} from "react-router-dom";
+import { BrowserRouter, Route, Routes, Link, useLocation, HashRouter} from "react-router-dom";
 import MainMenu from "./components/MainMenu/MainMenu";
 import Project from "./components/Project/Project";
 import About from "./components/About/About";
@@ -14,7 +14,7 @@ export default function App() {
 };
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
       <ul className='navbar'>
       <li>
         <Link to="/"><a>Home</a></Link>
@@ -31,7 +31,7 @@ export default function App() {
           <Route path="/project" element={<Project />} />
           <Route path="/about" element={<About />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

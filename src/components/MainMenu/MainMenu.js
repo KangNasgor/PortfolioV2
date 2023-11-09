@@ -7,7 +7,7 @@ import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import img from "./img(1).jpeg";
-import { BrowserRouter, Route, Routes, Link, useLocation} from "react-router-dom";
+import { BrowserRouter, Route, Routes, Link, useLocation, HashRouter} from "react-router-dom";
 
 function MainMenu() {
     const [clicked, setClicked] = useState(true);

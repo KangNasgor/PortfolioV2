@@ -2,7 +2,7 @@
   "name": "reactappex",
   "version": "0.1.0",
   "homepage": "http://KangNasgor.github.io/PortfolioV2",
-  "private": true,
+  "private": false,
   "dependencies": {
     "-": "^0.0.1",
     "@syncfusion/ej2-react-charts": "^23.1.44",
