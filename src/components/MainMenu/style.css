@@ -6,31 +6,14 @@
   height: 40vmin;
   pointer-events: none;
 }
-#tsparticle{
-  height: 1000px;
-}
+
 @media (prefers-reduced-motion: no-preference) {
-  .Applogo {
+  .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.navbar{
-  width : 200px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  color: black;
-  list-style: none;
-}
-.navbar li a{
-  text-decoration: none;
-  color: white;
-}
 .noBorder{
   border-style : none;
-}
-.centerText{
-  text-align: center;
 }
 .thumbnail{
   margin-left: 5px;
@@ -43,8 +26,69 @@
   margin-left : 5px;
   transition: 0.3s ease;
 }
-.title{
-  height : 100px;
+#nextButton{
+  margin-top: 100px;
+  margin-left : 800px;
+}
+#nextButtonLink{
+  color: white;
+  text-decoration: none;
+}
+.body{
+  height : 500px;
+}
+.CTAbutton{
+  margin-left : auto;
+  margin-right: auto;
+  margin-top: 100px;
+  color: white;
+  background-color: black;
+  display: block;
+  border-radius: 10px;
+  border-color: white;
+  border: 2px solid #ccc;
+  outline-color: white;
+  height: 50px;
+  width: 90px;
+  font-size: 18px;
+  transition: 0.5s ease;
+}
+#content2{
+  color: white;
+  margin-left: 210px;
+  margin-top : 50px;
+  width: 850px;
+}
+#content{
+  display: flex;
+  flex-direction: row;
+  margin-top: 600px;
+  justify-content: center;
+  color : white;
+}
+#particles{
+  z-index: -1;
+  position: fixed;
+}
+#content div h1{
+  width: 150px;
+  margin-top: 50px;
+}
+#content div{
+  width : 350px;
+}
+#content div p{
+  margin-left: 5px;
+}
+#content img{
+  margin-left: 130px;
+  border-radius: 50%;
+}
+.CTAbutton:hover{
+  background-color: #5582c9;
+}
+.CTAbutton:active{
+  background-color: #476ca6;
 }
 .fade{
   opacity: 0;
@@ -96,7 +140,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+#title{
+  margin-top: 100px;
+}
 .App-link {
   color: #61dafb;
 }
