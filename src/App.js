@@ -17,7 +17,7 @@ export default function App() {
       <BrowserRouter>
       <ul className='navbar'>
       <li>
-        <Link to="/PortfolioV2/"><a>Home</a></Link>
+        <Link to="/PortfolioV2"><a>Home</a></Link>
       </li>
       <li>
         <Link to="/project"><a>Projects</a></Link>
