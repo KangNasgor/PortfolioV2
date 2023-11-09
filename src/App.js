@@ -17,7 +17,7 @@ export default function App() {
       <BrowserRouter>
       <ul className='navbar'>
       <li>
-        <Link to="/PortfolioV2"><a>Home</a></Link>
+        <Link to="/"><a>Home</a></Link>
       </li>
       <li>
         <Link to="/project"><a>Projects</a></Link>
@@ -27,7 +27,7 @@ export default function App() {
       </li>
       </ul>
         <Routes>
-          <Route path="/PortfolioV2" element={<MainMenu />} />
+          <Route path="/" element={<MainMenu />} />
           <Route path="/project" element={<Project />} />
           <Route path="/about" element={<About />} />
         </Routes>
